@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="es">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <head>
 <style>
@@ -22,15 +21,22 @@
 a:hover {
   color: orange; /* cambia al pasar el mouse */
 }
+.section {
+  background-color: #eee;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  }
 </style>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Mi primera página</title>
 </head>
 <body>
   <h1>Hola, mundo</h1>
   <p>Mi primer proyecto</p>
   <p> Sea serio ciervo </p>
-<div style="background-color: purple; padding: 10px;">
+<div class="section">
 <h2>Mis frutas favoritas:</h2>
 <ul>
   <li>Manzana</li>
