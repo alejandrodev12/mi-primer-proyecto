@@ -96,8 +96,8 @@
 
   <div class="section">
     <h2>Enlaces útiles:</h2>
-    <a class="btn" href="https://mx.pinterest.com/pin/385691155608455582/" target="_blank">Ir a Pinterest</a><br>
-    <a class="btn" href="https://www.instagram.com/p/CvlMLjdL4yM/" target="_blank">Ir a Instagram</a>
+    <a class="btn" href="https://www.youtube.com/watch?v=ilmaXYtoVmE" target="_blank">Ir a Youtube</a><br>
+    <a class="btn" href="https://www.youtube.com/watch?v=M08K1Zb0ui8" target="_blank">Ir a Youtube2</a>
   </div>
 </main>
 
