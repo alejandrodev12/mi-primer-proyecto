@@ -1,1 +1,11 @@
-# Mi Primer Proyecto
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Mi primer proyecto</title>
+</head>
+<body>
+    <h1>Hola mundo, ahora sí desde GitHub Pages 😎</h1>
+</body>
+</html>
