@@ -1,0 +1,51 @@
+body {
+    background-color: #000000;
+    font-family: Arial, sans-serif;
+}
+
+main {
+    padding: 40px;
+}
+
+h1 {
+    color: #304860;
+    font-size: 32px;
+}
+
+p {
+    color: #9aa59a;
+    font-size: 18px;
+}
+
+button {
+    background-color: #3498db;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer; /*cursor: pointer → indica que es clickeable*/
+    transition: box-shadow 0.3s ease, transform 0.2s ease;
+}
+button:hover {
+    box-shadow: -5px 5px 23px #eb00ff,
+    5px 5px 23px #0099ff;
+    transform: translateY(-2px); /*transform: translateY(-2px) → sensación de “levantar”*/
+}
+
+.card {
+    background-color: white;
+    width: 600px;
+    padding: 25px; /*Más padding → mejor lectura*/
+    margin: 40px auto;  /* margin: auto → centra horizontalmente */
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3); /* box-shadow → profundidad (UI moderna) */
+}
+
+.card h2 {
+    margin-top: 0;
+    color: rgb(75, 45, 45);
+}
+
+.card p {
+    line-height: 1.6;
+}

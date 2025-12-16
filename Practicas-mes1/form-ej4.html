@@ -1,0 +1,32 @@
+<form>
+    <h2>Formulario de contacto</h2>
+    
+    <label for="nombre">Nombre</label>
+    <input id="nombre" type="text" placeholder="Tu nombre" required>
+    
+    <label for="email">Correo</label>
+    <input id="email" type="email" placeholder="correo@ejemplo.com" required>
+    
+    <label for="edad">Edad</label>
+        <input id="edad" type="number" min="18" max="100">
+        
+    <p>Género:</p>
+    
+    <label for="hombre">
+    <input id="hombre" type="radio" name="genero" value="hombre"> Hombre
+    </label>
+    
+    <label for="mujer">
+    <input id="mujer" type="radio" name="genero" value="mujer"> Mujer
+    </label>
+
+    <label>
+    <input type="checkbox" required> Acepto los términos
+</label>
+
+    
+    <label for="mensaje">Mensaje</label>
+    <textarea id="mensaje" placeholder="Escribe algo..."></textarea>
+
+<button type="submit">Enviar</button>
+</form>

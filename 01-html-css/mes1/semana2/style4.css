@@ -1,0 +1,44 @@
+body {
+    background-color: #322f2f;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card {
+    background: #181818;
+    color: white;
+    padding: 24px;
+    border-radius: 26px;
+    width: 280px;
+    
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+h2 { 
+    font-size: 28px;
+}
+p { 
+    font-size: 16px;
+    color: #b3b3b3;
+}
+
+button {
+    background: #1db954;
+    color: black;
+    font-size: 14px;
+    padding: 12px 18px;
+    border-radius: 999px;
+    border: none;
+    cursor: pointer;
+    transition: background 0.2s ease, transform 0.2s ease;
+}
+
+button:hover {
+    transform: translateY(-4px);
+}
+button:active {
+    transform: translateY(0);
+}
